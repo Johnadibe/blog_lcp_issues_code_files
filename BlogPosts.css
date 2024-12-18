@@ -1,0 +1,91 @@
+.blog-content{
+    padding: 80px;
+    background-color: #f8f2a8;
+    /*how to align by justifying, as oppsoed to centre, left or right align*/
+}
+
+.blog-content ul ul {
+    padding-left: 2em; /* Adjusts the padding for nested <ul> elements */
+    list-style-type: disc; /* Ensures the nested list uses the default bullet style */
+}
+
+
+.blog-content figure{
+    text-align: center;
+    
+}
+.blog-content figure img{
+    /* centre this img */
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.blog-content p, .blog-content li{
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+
+.blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4{
+    font-family: 'Arial Rounded MT', sans-serif;
+    color: #464444;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog-content h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.blog-content h2{
+    font-size: 40px;
+}
+
+.blog-content h3{
+    font-size: 30px;
+}
+
+.blog-content h4{
+    font-size: 20px;
+}
+
+.blog-content figure{
+    margin: 0 auto;
+}
+
+.blog-content a{
+    color: rgb(0, 145, 255);
+}
+
+pre{
+    font-size: 18px;
+    font-family: consolas, monospace;
+}
+
+/*mobile css medi query*/
+@media only screen and (max-width: 600px) {
+    .blog-content{
+        padding: 20px;
+    }
+
+    .blog-content figure img{
+        /*centre this div*/
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .blog-content p, .blog-content li{
+        font-size: 18px;
+    }
+
+    .blog-content h2{
+        font-size: 24px;
+    }
+    .blog-content h3{
+        font-size: 16px;
+    }
+}

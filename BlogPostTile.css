@@ -1,0 +1,14 @@
+.blog-post-tile {
+    display: flex;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 5px 6px rgba(24, 1, 1, 0.486);
+}
